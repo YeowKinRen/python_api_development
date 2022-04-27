@@ -18,5 +18,3 @@ async def root():
 async def root(new_post: Post):
     print(new_post.title)
     return {"message": "Hello World"}
-
-# uvicorn main:app --reload
