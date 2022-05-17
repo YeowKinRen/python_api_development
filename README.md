@@ -1,11 +1,43 @@
 # Python API Development
 
+## Virtual environment
+create virtual env 
+```python -m venv venv``
+activate 
+```venv\Scripts\activate```
+
 
 ## FastAPI
-
+```pip install fastapi```
+Run the server
 ```uvicorn app.main:app --reload```
 
 ## PostgreSQL
+
+
+
+## Psycopg 
+PostgreSQL adapter 
+```pip install psycopg2-binary```
+
+## SQlAlchemy
+SQL toolkit and Object Relational Mapper
+```pip install SQLAlchemy```
+
+
+
+# https://fastapi.tiangolo.com/tutorial/security/oauth2-jwt/
+
+## python-jose
+to generate and verify the JWT tokens in Python
+```pip install "python-jose[cryptography]"```
+
+## passlib
+handle password hashes
+```pip install "passlib[bcrypt]"```
+
+## Alembic
+```pip install alembic```
 
 
 
